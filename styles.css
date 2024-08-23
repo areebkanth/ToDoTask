@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family:  sans-serif;
+    background-color: whitesmoke;
+    
+}
+
+.title {
+    margin-bottom: 30px; 
+  
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.todo-container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    padding: 10px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray; 
+    border-radius: 5px;
+}
+
+li button {
+    margin-left: 10px; 
+}
+
+.completed {
+    text-decoration: line-through; 
+    color: red; 
+}
